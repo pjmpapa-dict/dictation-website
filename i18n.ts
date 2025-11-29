@@ -5,11 +5,17 @@ import { getRequestConfig } from 'next-intl/server';
 export const locales = ['zh-HK', 'zh-CN', 'en'] as const;
 export type Locale = (typeof locales)[number];
 
-export default getRequestConfig(async ({ locale }) => {
+export default getRequestConfig(async ({ requestLocale }) => {
+  // 獲取請求的語言
+  let locale = await requestLocale;
+
   // 驗證請求的語言是否支持
-  if (!locales.includes(locale as Locale)) notFound();
+  if (!locale || !locales.includes(locale as Locale)) {
+    locale = 'zh-HK'; // 默認語言
+  }
 
   return {
+    locale,
     messages: (await import(`./messages/${locale}.json`)).default
   };
 });

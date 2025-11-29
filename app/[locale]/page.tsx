@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
@@ -8,7 +7,9 @@ import Download from '@/components/Download';
 import FAQ from '@/components/FAQ';
 import Footer from '@/components/Footer';
 
-export default function HomePage({ params: { locale } }: { params: { locale: string } }) {
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+
   // Enable static rendering
   unstable_setRequestLocale(locale);
 
