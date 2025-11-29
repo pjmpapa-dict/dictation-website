@@ -1,0 +1,118 @@
+{
+  "app": {
+    "name": "默書啦喂",
+    "tagline": "AI 默書助手 · 讓默書變得更輕鬆"
+  },
+  "nav": {
+    "home": "首頁",
+    "features": "功能",
+    "pricing": "定價",
+    "download": "下載",
+    "support": "支援",
+    "faq": "常見問題"
+  },
+  "hero": {
+    "title": "讓默書變得簡單有趣",
+    "subtitle": "智能語音播放 · OCR 文字識別 · 筆順動畫教學",
+    "description": "專為香港小學生設計的默書學習應用，支持中英文，提供智能語音播放、OCR 文字識別、HK4762 字典和筆順動畫等功能。",
+    "downloadIos": "App Store 下載",
+    "downloadAndroid": "Google Play 下載",
+    "comingSoon": "即將推出"
+  },
+  "features": {
+    "title": "強大功能，輕鬆學習",
+    "subtitle": "全方位支持您的默書學習需求",
+    "ocrTitle": "智能 OCR 識別",
+    "ocrDesc": "拍照或選擇圖片，自動識別文字內容，快速創建默書",
+    "ttsTitle": "AI 語音播放",
+    "ttsDesc": "支持粵語、普通話、英文，可調速度、重複次數和間隔時間",
+    "dictionaryTitle": "HK4762 字典",
+    "dictionaryDesc": "收錄香港教育局 4762 個常用字，提供筆順動畫、粵普發音和詞語學習",
+    "reviewTitle": "溫習模式",
+    "reviewDesc": "卡片、列表、筆順三種溫習模式，支持標記已掌握詞語",
+    "cloudTitle": "雲端同步",
+    "cloudDesc": "登入帳戶後，所有默書自動雲端備份，多設備無縫切換",
+    "freeTitle": "完全免費",
+    "freeDesc": "核心功能永久免費使用，無需訂閱即可享受完整體驗"
+  },
+  "pricing": {
+    "title": "選擇適合您的方案",
+    "subtitle": "靈活的定價選項，滿足不同需求",
+    "free": {
+      "name": "免費版",
+      "price": "HK$0",
+      "period": "永久免費",
+      "features": [
+        "所有核心功能",
+        "含廣告",
+        "基本語音播放",
+        "OCR 文字識別",
+        "HK4762 字典",
+        "溫習模式"
+      ],
+      "cta": "立即下載"
+    },
+    "personal": {
+      "name": "個人版",
+      "price": "HK$28",
+      "period": "每月",
+      "yearlyPrice": "HK$228",
+      "yearlyPeriod": "每年（省 HK$108）",
+      "features": [
+        "移除所有廣告",
+        "Azure AI 高質量語音",
+        "無限雲端儲存",
+        "優先技術支援",
+        "所有未來新功能"
+      ],
+      "cta": "開始訂閱",
+      "popular": "最受歡迎"
+    },
+    "family": {
+      "name": "家庭版",
+      "price": "HK$48",
+      "period": "每月",
+      "yearlyPrice": "HK$388",
+      "yearlyPeriod": "每年（省 HK$188）",
+      "features": [
+        "個人版所有功能",
+        "最多 6 個家庭成員",
+        "家庭共享默書庫",
+        "多設備同時使用",
+        "家長監控面板"
+      ],
+      "cta": "開始訂閱"
+    }
+  },
+  "download": {
+    "title": "立即下載",
+    "subtitle": "支持 iOS 和 Android 雙平台",
+    "iosTitle": "iOS 版本",
+    "iosDesc": "支持 iOS 14.0 或以上版本",
+    "androidTitle": "Android 版本",
+    "androidDesc": "即將推出，敬請期待"
+  },
+  "faq": {
+    "title": "常見問題",
+    "subtitle": "找到您需要的答案",
+    "q1": "免費版有什麼限制？",
+    "a1": "免費版包含所有核心功能，只是會顯示廣告。訂閱後可移除廣告並享受 Azure AI 高質量語音。",
+    "q2": "支持哪些語言？",
+    "a2": "支持繁體中文（粵語）、簡體中文（普通話）和英文三種語言。",
+    "q3": "如何取消訂閱？",
+    "a3": "可以隨時在 App Store 或 Google Play 的訂閱管理中取消訂閱。",
+    "q4": "資料會保存在哪裡？",
+    "a4": "本地資料保存在設備上，登入帳戶後會自動同步到 Firebase 雲端。"
+  },
+  "footer": {
+    "description": "專為香港小學生設計的默書學習應用",
+    "product": "產品",
+    "company": "公司",
+    "support": "支援",
+    "legal": "法律",
+    "privacy": "私隱政策",
+    "terms": "使用條款",
+    "contact": "聯絡我們",
+    "copyright": "© 2025 默書啦喂。保留所有權利。"
+  }
+}

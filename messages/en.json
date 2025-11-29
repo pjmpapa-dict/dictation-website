@@ -1,0 +1,118 @@
+{
+  "app": {
+    "name": "Dictation Master",
+    "tagline": "AI Dictation Assistant · Make Learning Easier"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "download": "Download",
+    "support": "Support",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Make Dictation Simple and Fun",
+    "subtitle": "Smart Voice Playback · OCR Text Recognition · Stroke Animation",
+    "description": "A dictation learning app designed for Hong Kong primary students, supporting Chinese and English with intelligent voice playback, OCR text recognition, HK4762 dictionary, and stroke animations.",
+    "downloadIos": "Download on App Store",
+    "downloadAndroid": "Get it on Google Play",
+    "comingSoon": "Coming Soon"
+  },
+  "features": {
+    "title": "Powerful Features, Easy Learning",
+    "subtitle": "Comprehensive support for your dictation learning needs",
+    "ocrTitle": "Smart OCR Recognition",
+    "ocrDesc": "Take a photo or select an image to automatically recognize text and quickly create dictations",
+    "ttsTitle": "AI Voice Playback",
+    "ttsDesc": "Supports Cantonese, Mandarin, and English with adjustable speed, repeat count, and intervals",
+    "dictionaryTitle": "HK4762 Dictionary",
+    "dictionaryDesc": "Contains 4762 common characters from HK Education Bureau with stroke animations and pronunciations",
+    "reviewTitle": "Review Mode",
+    "reviewDesc": "Three review modes: card, list, and stroke, with support for marking mastered words",
+    "cloudTitle": "Cloud Sync",
+    "cloudDesc": "All dictations automatically backed up to cloud after login, seamlessly sync across devices",
+    "freeTitle": "Completely Free",
+    "freeDesc": "Core features permanently free to use, enjoy full experience without subscription"
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Flexible pricing options to meet different needs",
+    "free": {
+      "name": "Free",
+      "price": "HK$0",
+      "period": "Forever",
+      "features": [
+        "All core features",
+        "With ads",
+        "Basic voice playback",
+        "OCR text recognition",
+        "HK4762 dictionary",
+        "Review mode"
+      ],
+      "cta": "Download Now"
+    },
+    "personal": {
+      "name": "Personal",
+      "price": "HK$28",
+      "period": "per month",
+      "yearlyPrice": "HK$228",
+      "yearlyPeriod": "per year (save HK$108)",
+      "features": [
+        "Remove all ads",
+        "Azure AI premium voices",
+        "Unlimited cloud storage",
+        "Priority support",
+        "All future features"
+      ],
+      "cta": "Subscribe Now",
+      "popular": "Most Popular"
+    },
+    "family": {
+      "name": "Family",
+      "price": "HK$48",
+      "period": "per month",
+      "yearlyPrice": "HK$388",
+      "yearlyPeriod": "per year (save HK$188)",
+      "features": [
+        "All Personal features",
+        "Up to 6 family members",
+        "Shared dictation library",
+        "Multiple device support",
+        "Parental control panel"
+      ],
+      "cta": "Subscribe Now"
+    }
+  },
+  "download": {
+    "title": "Download Now",
+    "subtitle": "Available on iOS and Android",
+    "iosTitle": "iOS Version",
+    "iosDesc": "Requires iOS 14.0 or later",
+    "androidTitle": "Android Version",
+    "androidDesc": "Coming soon"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find the answers you need",
+    "q1": "What are the limitations of the free version?",
+    "a1": "The free version includes all core features but displays ads. Subscribe to remove ads and enjoy Azure AI premium voices.",
+    "q2": "What languages are supported?",
+    "a2": "Supports Traditional Chinese (Cantonese), Simplified Chinese (Mandarin), and English.",
+    "q3": "How do I cancel my subscription?",
+    "a3": "You can cancel your subscription anytime in the App Store or Google Play subscription management.",
+    "q4": "Where is my data stored?",
+    "a4": "Local data is stored on your device. After logging in, all data is automatically synced to Firebase cloud."
+  },
+  "footer": {
+    "description": "A dictation learning app designed for Hong Kong primary students",
+    "product": "Product",
+    "company": "Company",
+    "support": "Support",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us",
+    "copyright": "© 2025 Dictation Master. All rights reserved."
+  }
+}
