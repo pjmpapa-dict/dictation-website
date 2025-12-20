@@ -1,14 +1,8 @@
-import { unstable_setRequestLocale } from 'next-intl/server';
+'use client';
+
 import { useTranslations } from 'next-intl';
 
-export default async function PrivacyPolicyPage({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  unstable_setRequestLocale(locale);
-
-  return <PrivacyPolicyContent />;
-}
-
-function PrivacyPolicyContent() {
+export default function PrivacyPolicyPage() {
   const t = useTranslations('privacy');
 
   return (
